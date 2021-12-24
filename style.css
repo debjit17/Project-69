@@ -1,0 +1,36 @@
+.nav{
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+
+.Monument{
+  border: 1px solid black;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px;
+  background-color: white;
+}
+
+#travel{
+  text-align: center;
+}
+
+img{
+  height: 400px;
+}
+
+h2{
+  text-align: left;
+}
+
+body{
+  background-color: royalblue;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="Monument"] {
+    width: 100%;
+    margin: 0px;
+  }
+}
